@@ -158,7 +158,120 @@ object-position: center;
 
 
 
+@media(min-width:700px){
 
+body{
+background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+background-repeat: no-repeat,no-repeat;
+background-size:auto,auto;
+background-position: top left, bottom right;
+height: 100vh;
+width: 90vw;
+margin: 0 auto;
+font-size: 20px;
+}
+
+
+.union{
+    display: flex;
+    justify-content: row;
+    border: 3px dashed blue;
+    align-items: center;
+    height: 50%;
+    justify-content: space-between;
+
+}
+
+header{
+    width: 40%;
+    text-align: left;
+    border: 1px red solid;
+
+}
+
+header h1{
+    font-size: 45px;
+    max-width: 80%;
+}
+
+
+.ratings{
+    width: 50%;
+
+}
+
+#row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+.column {
+display: flex;
+flex-direction: column;
+}
+
+.row{
+display: flex;
+flex-direction: row;
+}
+
+.ratings p {
+color: var(--first_color);
+font-weight: 700;
+
+}
+
+.ratings{
+margin-top: 10%;
+}
+
+.ratings .column{
+justify-content: center;
+align-items: center;
+background-color: var(--fourth_color);
+padding-top: 4%;
+padding-bottom: 4%;
+border-radius: 10px;
+}
+
+.ratings .column + .column {
+margin-top: 5%;
+}
+
+.ratings .column .row {
+margin-bottom: 4%;
+justify-content: space-around;
+width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
