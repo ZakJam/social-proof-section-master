@@ -1,0 +1,167 @@
+/* MOBILE VERSION */
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+padding-top:10%;
+padding-bottom:10%;
+padding-left: 5%;
+padding-right: 5%;
+font-family: 'League Spartan', sans-serif;
+font-size: 16px;
+background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+background-repeat: no-repeat,no-repeat;
+background-size:contain,contain;
+background-position: top, bottom;
+}
+
+
+/*VARIABILI COLORI */
+
+
+:root{
+--first_color:  hsl(300, 43%, 22%);
+--second_color:hsl(333, 80%, 67%);
+--third_color:hsl(303, 10%, 53%);
+--fourth_color: hsl(300, 24%, 96%);
+}
+
+
+
+/*------------------ START HEADER ----------------*/
+
+header h1{
+color:var(--first_color);
+font-size: 35px;
+}
+
+
+
+header p{
+color: var(--third_color);
+}
+
+header h1+p {
+margin-top: 5%;
+}
+
+header{
+text-align: center;
+}
+
+/*------------------ END HEADER-------------------*/ 
+
+
+
+/*-------------------- RATINGS--------------------*/
+
+.column {
+display: flex;
+flex-direction: column;
+}
+
+.row{
+display: flex;
+flex-direction: row;
+}
+
+.ratings p {
+color: var(--first_color);
+font-weight: 700;
+
+}
+
+.ratings{
+margin-top: 10%;
+}
+
+.ratings .column{
+justify-content: center;
+align-items: center;
+background-color: var(--fourth_color);
+padding-top: 4%;
+padding-bottom: 4%;
+border-radius: 10px;
+}
+
+.ratings .column + .column {
+margin-top: 5%;
+}
+
+.ratings .column .row {
+margin-bottom: 4%;
+justify-content: space-around;
+width: 40%;
+}
+
+
+/*------------------- END RATINGS -----------------*/ 
+
+
+
+
+/*------------------- FEEDBACK -------------------*/ 
+
+.feedback{
+margin-top:10%;
+}
+
+.feedback .user +.user {
+margin-top: 10%;
+}
+
+.feedback .user{
+background: var(--first_color);
+color: white;
+padding: 8%;
+padding-top: 10%;
+padding-bottom: 10%;
+border-radius:8px;
+text-align: left;
+}
+
+.feedback img + p {
+margin-left: 5%;
+line-height: 130%;
+}
+
+.feedback p {
+line-height: 130%;
+}
+.feedback .row {
+align-items: center;
+margin-bottom: 10%;
+}
+
+.verified{
+color: var(--second_color);
+}
+
+.feedback img{
+width: 20%;
+clip-path: circle(50%);
+overflow: hidden;
+object-fit: cover;
+object-position: center;    
+}
+
+/*--------------------- END FEEDBACK -------------------*/
+/*Per usare border radius si usa i px non le percentuali*/
+
+
+
+
+
+
+
+
+
+
+
+
+
