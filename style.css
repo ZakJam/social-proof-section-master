@@ -281,7 +281,7 @@ width: 40%;
 
 
 
-
+/*DESKTOP VERSION*/
 
 @media(min-width:700px){
 
@@ -308,7 +308,7 @@ align-items:center;
 }
 
 
-/* DESKTOP HEADER */
+/*----------------------------DESKTOP HEADER------------------------ */
 .union header{
 width: 50%;
 text-align: left;
@@ -325,7 +325,7 @@ max-width: 70%;
 line-height: 115%;
 }
 
-/*  END DESKTOP HEADER*/
+/*----------------------END DESKTOP HEADER--------------------------------*/
 
 
 
@@ -333,7 +333,7 @@ line-height: 115%;
 
 
 
-/* DESKTOP RATINGS*/
+/*------------------------------DESKTOP RATINGS--------------------------*/
 .union .column {
 display: flex;
 flex-direction: row;
@@ -389,13 +389,13 @@ margin-right: 5%;
 }
 
 
-/* END DESKTOP RATINGS*/
+/*---------------------------END DESKTOP RATINGS-------------------------*/
 
 
 
 
 
-/* DESKTOP FEEDBACK*/
+/*---------------------------DESKTOP FEEDBACK----------------------*/
 
 .feedback{
 margin-top:3%;
@@ -458,21 +458,5 @@ object-position: center;
 }
 
 /*--------------------- END DESKTOP FEEDBACK -------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
