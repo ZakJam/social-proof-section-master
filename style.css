@@ -175,7 +175,6 @@ font-size: 20px;
 .union{
     display: flex;
     justify-content: row;
-    border: 3px dashed blue;
     align-items: center;
     height: 50%;
     justify-content: space-between;
@@ -185,7 +184,6 @@ font-size: 20px;
 header{
     width: 40%;
     text-align: left;
-    border: 1px red solid;
 
 }
 
